@@ -1,0 +1,20 @@
+{
+  "name": "retail-demand-backtest",
+  "title": "Retail Demand Backtest",
+  "source_collection": "shsarv/Machine-Learning-Projects",
+  "source_entry_url": "https://github.com/shsarv/Machine-Learning-Projects/tree/028b32244cb688cb1beb0ca90754596aeef5e812/TimeSeries%20Multi%20StoreSales%20prediction",
+  "skills": [
+    "Python",
+    "Time-series forecasting",
+    "Gradient boosting",
+    "Temporal validation"
+  ],
+  "problem": "Which model should supply SKU/store replenishment inputs when promotions and missing history change?",
+  "limitations": [
+    "Original synthetic/authored experiment; no employer or customer outcome is established.",
+    "CPU reference run; no cloud deployment or paid API."
+  ],
+  "test_command": "python -m unittest discover -s tests -v",
+  "run_command": "python run.py --output runs/ci",
+  "test_count": 9
+}

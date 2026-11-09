@@ -1,0 +1,51 @@
+{
+  "seed": 1602,
+  "rows": 22688,
+  "train_rows": 13568,
+  "validation_rows": 4320,
+  "test_rows": 4800,
+  "split_days": {
+    "train": [
+      14,
+      119
+    ],
+    "validation": [
+      120,
+      149
+    ],
+    "test": [
+      150,
+      179
+    ]
+  },
+  "selected_max_leaves": 15,
+  "validation_wape": {
+    "7": 0.22854525004274107,
+    "15": 0.22685333621848905
+  },
+  "test": {
+    "boosted_wape": 0.22387133360123496,
+    "seasonal_naive_wape": 0.3998814073000395,
+    "boosted_mase": 0.5633569117586775,
+    "seasonal_naive_mase": 1.0062742337861406,
+    "cold_rows": 960,
+    "cold_boosted_wape": 0.22782276355395065,
+    "cold_naive_wape": 0.4214577656675749
+  },
+  "illustrative_cost": {
+    "1": {
+      "boosted": 3.5394990639578583,
+      "naive": 6.322291666666667
+    },
+    "3": {
+      "boosted": 7.240685180523063,
+      "naive": 12.820208333333333
+    },
+    "8": {
+      "boosted": 16.493650471936075,
+      "naive": 29.065
+    }
+  },
+  "mase_scale": "training-only mean absolute seven-day seasonal difference; zero-history rows included",
+  "limits": "Original stationary synthetic demand with one declared late shift. Promotions are known schedule inputs. No stockouts, fulfillment or financial ROI inferred."
+}

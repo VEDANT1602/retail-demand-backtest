@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "experiment.py": "30d04a101904ceb0965f51a30acfb4a0ed173de8240f6c13884059ee6bc47abb",
+    "experiment_io.py": "ced44ed648f6f96d21a1c3a441e4461d560b74956de07bb0bf555671da11d0f9",
+    "run.py": "405aa3a68efb35bf848fda2057214e9c500d8f1ef83ea7c5f359b85c682c9457",
+    "results/data.csv": "82bc6eefb5ffa56de24ec2857950b08856afa67e7ad334e2fb5db435817c3205",
+    "results/metrics.json": "cfc745960f9619244c8f7a68d3a6e7d4fbc87d1bf1c18d8c220981ecc63e1a89",
+    "results/model.pkl": "03c73c13c299df466f952c5715482d08a2773983274c7b1e1a02c383e146f571",
+    "results/predictions.csv": "15d683e49864a2269b73b8ed8772b03a66cff6c802e5f7dc14af0f8c18cacc73",
+    "results/report.md": "e7bd1f33e6147594f8a7ec648d071045f447ba454ce9869c4f187702e26e6c13"
+  }
+}
